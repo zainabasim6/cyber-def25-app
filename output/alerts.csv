@@ -1,0 +1,4 @@
+timestamp,log_file,line_number,log_entry,threat_level,description
+2025-11-28 21:05:56,sample.log,2,"2024-01-01 10:01:00,192.168.1.101,10.0.0.51,POST /login,404",HIGH,Suspicious activity detected
+2025-11-28 21:05:56,sample.log,3,"2024-01-01 10:02:00,192.168.1.102,10.0.0.52,GET /admin,403",HIGH,Suspicious activity detected
+2025-11-28 21:05:56,sample.log,5,"2024-01-01 10:04:00,192.168.1.104,10.0.0.54,POST /upload,500",HIGH,Suspicious activity detected

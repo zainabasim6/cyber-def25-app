@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  malware-detector:
+    build: .
+    volumes:
+      - ./network_logs:/input/logs
+      - ./output:/output
+    restart: unless-stopped
